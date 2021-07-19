@@ -1,0 +1,31 @@
+﻿public enum EventType
+{
+    STOPANIM,//鼠标指向结束动画
+    STARTANIM,//鼠标离开开始动画
+    MIRRORSTARTANIM,//反向播放动画
+    CHANGELOADSCENE,//场景切换
+    CREATELANDS,//创建地图
+    OPENANIM,//打开动画
+    CLICKBUILD,//点击建造
+    CLICKTOOLS,//点击工具
+    CLICKTEAR,//点击拆除
+    RANDOMMAP,//随机地图
+    EXITGAME,//退出游戏
+    UIDOMOVE,//UI的移动方法
+    CHANGEMAPSIZE,//改变地图大小
+    ISJOBFACTROY,//工厂是否可以工作
+    CHANGESHAPE,//改变物体形状
+    CLICKOPENDESPANEL,//打开工厂框
+    SHOWOBJECT,//显示物体
+    HIDEOBJECT,//隐藏物体
+    CHANGEGOLD,//更新金币
+    ADDFACTLABEL,//添加工厂标签
+    CHANGERAW,//更新仓库
+    RANDOMRAW,//随机原料
+    CHANGESIMWARE,//更新模拟仓库
+    CHANGELANDWARERAW,//更新land仓库
+    PLAYMUSIC,//播放音乐
+    ADDTASK,//添加任务
+    REMOVETASK,//移除任务
+    TASKBASE,//调整任务器
+}
